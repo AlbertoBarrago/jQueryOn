@@ -1,4 +1,12 @@
 /**
+ * Represents the application ID.
+ *
+ * @type {string}
+ * @constant
+ */
+const appId = '#app';
+
+/**
  * Returns the HTML content for the documentation
  *
  * @returns {string} The HTML content for the documentation
@@ -70,16 +78,8 @@ const init = () => {
     logger();
 
     //prepare html
-    $('#app').append(htmlContent());
+    $(appId).append(htmlContent());
 }
-
-/**
- * Represents the application ID.
- *
- * @type {string}
- * @constant
- */
-const appId = '#app';
 
 
 $(document).ready(() => {
