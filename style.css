@@ -1,0 +1,78 @@
+/* Definizione delle variabili */
+:root {
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --primary-color: #0078d4;
+    --primary-hover-color: #004377;
+}
+
+/* Reset CSS per una base pulita */
+body, h1, p, ul, li, a, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Stile per il corpo della pagina */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Intestazione */
+h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+
+/* Paragrafi */
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Liste non ordinate */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Link */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: var(--primary-hover-color);
+}
+
+/* Esempi di codice */
+pre {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+/* Pulsanti */
+button {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--primary-hover-color);
+}
